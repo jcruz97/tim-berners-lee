@@ -1,0 +1,35 @@
+html{
+    background-color: #EBEBEB;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0em;
+    padding: 0em;
+}
+
+body{
+    text-align: center;  
+    
+}
+
+
+.upper-site{
+    background-color: #FFFFFF;
+    max-width: 40em;
+}
+
+.social-icons{
+    background-color: #FFFFFF;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.movies{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
