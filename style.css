@@ -12,10 +12,28 @@ body{
     
 }
 
+h1{
+    text-align: center;
+    font-weight: 900;
+    color: #DD5555;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h2{
+    text-align: center;
+    color: #807E7D;
+}
+
+
 
 .upper-site{
     background-color: #FFFFFF;
-    max-width: 40em;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 5em;
+    padding-right: 5em;
+    text-align: justify;
 }
 
 .social-icons{
