@@ -30,6 +30,12 @@ Problems encountered
 
 * 'div' keeping their left instead of going on center of the page.
 
+* Some issues with margin & paddings.
+
+* Not enough commits done.
+
+* Not enough commentaries done.
+
 Don't be afraid to ask if you have an hesitation on how I work on this website or for any problem encountered.
 
 ### Done as part of the web-developper course @BeCode.
