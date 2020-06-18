@@ -11,9 +11,12 @@ body{
     text-align: center;  
     font-weight: 300;
     color: #807E7D;
+    margin-bottom: 3em;
 }
 
-div{
+.main-div{ /*For most comfort, I put a class for the containers as putting 'div' as a caller will
+    will result in transforming every 'div' in the page, and there's a lot trust me!*/
+
     background-color: #FFFFFF;
     margin-left: 32%;
     margin-right: 32%;
@@ -38,13 +41,13 @@ h1{
 h2{
     text-align: center;
     color: #807E7D;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
 
 
-.text-upper{
+.text-upper{ /*Short intro of Tim containing a pic, a text and a link*/
     text-align: justify;
     line-height: 1.75;
     margin-bottom: 0.5;
@@ -55,24 +58,26 @@ h2{
     width:  8em ;
     height:  8em;
     position: relative;
-    border: 2px solid #CCCCCC;
+    border: 3px solid #CCCCCC;
     padding: 0;
 }
 
-.wiki-link{
+.wiki-link{ /*Stylished link box for the wiki page of Tim Berners-Lee*/
     border-radius: 5px;
     background-color: #DD5555;
-    padding: 0.5px 0.1px 0.5px 0.1px;
+    padding: 0.5px 0.1px 0px 0.1px;
     margin-bottom: 0.5em;
     margin-top : 0.5em;
     width: 10em;
     height: 2.5em;
+    display: inline-block;
 }
 
 .link{
-    margin: 0;
-    font-size: 18px;
-    font-weight: 400;
+    margin-top: 0.4em;
+    font-size: 16px;
+    font-weight: 600;
+    
 }
 
 
@@ -82,17 +87,66 @@ h2{
     flex-direction: row;
     justify-content: space-evenly;
     color: #c4b9b9;
+    padding-bottom: 2em;
+    padding-top: 1em;
+    margin-top: 3em;
 }
 
 .icons{
+    font-size: 1.5em;
 }
 
+.brand-name{
+    font-size: initial;
+}
 
-.movies{
+/*Prefered movies section, from the container to the divisons for every element*/
+
+.movies{ /*Container*/
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+   
+    margin-bottom: 3em;
 }
+
+.movie-text{ /*Every describing paragraph for every movie*/
+    text-align: justify;
+    padding: 0em 2em 0em 2em;
+   
+}
+
+.movie-title{
+    margin-bottom: 0px;
+    position: relative;
+    left: 1.75em;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.movie-case{ /*Assembly of the poster and the paragraph*/
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+
+.movie-poster{
+    
+    width: 5.5em;
+    height: 8em;
+   
+}
+
+/*This span results in highlighting "His" in the title as required by the example*/
+
+span{
+    background-color: #EBEBEB;
+}
+
+
+/*Those links styles are put at the bottom for useful usage for further modifications*/
 
 a:link, a:visited{
     text-decoration: none;
